@@ -23,10 +23,17 @@ public class UserController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doProcess(request, response);
 	}
+<<<<<<< HEAD
 	
 	protected void doProcess(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String cmd = request.getParameter("cmd");
 		
+=======
+
+	protected void doProcess(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String cmd = request.getParameter("cmd");
+
+>>>>>>> f146f610a4f1842e2cbf61401f4fec0fda12f498
 		// http://localhost:8080/blog/user?cmd=loginForm
 		if(cmd.equals("loginForm")) {
 			// 서비스 호출
@@ -35,4 +42,8 @@ public class UserController extends HttpServlet {
 		}
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f146f610a4f1842e2cbf61401f4fec0fda12f498

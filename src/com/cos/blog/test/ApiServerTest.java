@@ -13,7 +13,11 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/test")
 public class ApiServerTest extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+<<<<<<< HEAD
        
+=======
+
+>>>>>>> f146f610a4f1842e2cbf61401f4fec0fda12f498
     public ApiServerTest() {
         super();
     }
@@ -23,7 +27,11 @@ public class ApiServerTest extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> f146f610a4f1842e2cbf61401f4fec0fda12f498
 //		String mime = request.getContentType();
 //		System.out.println(mime);
 //		request.setCharacterEncoding("UTF-8");
@@ -42,8 +50,13 @@ public class ApiServerTest extends HttpServlet {
 //			System.out.println(food);
 //			System.out.println(method);
 //		}
+<<<<<<< HEAD
 		
 	
+=======
+
+
+>>>>>>> f146f610a4f1842e2cbf61401f4fec0fda12f498
 		// DB에 insert 하고 끝
 		response.setContentType("text/html; charset=utf-8"); 
 		PrintWriter out = response.getWriter();
@@ -55,4 +68,8 @@ public class ApiServerTest extends HttpServlet {
 		out.flush();
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f146f610a4f1842e2cbf61401f4fec0fda12f498

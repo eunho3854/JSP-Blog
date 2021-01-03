@@ -23,9 +23,17 @@ public class BoardController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doProcess(request, response);
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> f146f610a4f1842e2cbf61401f4fec0fda12f498
 	protected void doProcess(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f146f610a4f1842e2cbf61401f4fec0fda12f498

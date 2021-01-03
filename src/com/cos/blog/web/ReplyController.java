@@ -23,9 +23,18 @@ public class ReplyController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doProcess(request, response);
 	}
+<<<<<<< HEAD
 	
 	protected void doProcess(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 	}
 
 }
+=======
+
+	protected void doProcess(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+	}
+
+}
+>>>>>>> f146f610a4f1842e2cbf61401f4fec0fda12f498
